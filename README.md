@@ -1,6 +1,6 @@
-# React Native TFLite Playground
+# ⚛️React Native TFLite Playground
 
-Welcome to the React Native TFLite Playground! 🚀
+Welcome to the React Native TFLite Playground!
 
 ## Overview
 
@@ -12,6 +12,11 @@ This project is a playground for integrating TensorFlow Lite (TFLite) with React
 - **Model Playground**: Experiment with different TFLite models and see their impact in real-time.
 - **User-friendly Interface**: Intuitive UI for a seamless experience.
 - **Relatively latest React Native version used (v0.71.8).
+
+## Preview
+![](https://github.com/srikiran1707/react-native-tflite-playground/blob/master/assets/bertQA_preview.gif)
+
+
 ## Getting Started
 
 ### Prerequisites
