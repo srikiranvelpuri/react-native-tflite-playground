@@ -13,6 +13,12 @@ This project is a playground for integrating TensorFlow Lite (TFLite) with React
 - **User-friendly Interface**: Intuitive UI for a seamless experience.
 - **Relatively latest React Native version used (v0.71.8).
 
+  
+## TFLite Models Integration Status :
+- [Bert Question Answerer](https://www.tensorflow.org/lite/examples/bert_qa/overview) ✅
+  
+
+
 ## Preview
 ![](https://github.com/srikiran1707/react-native-tflite-playground/blob/master/assets/bertQA_preview.gif)
 
