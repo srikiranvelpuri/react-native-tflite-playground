@@ -8,6 +8,7 @@ import com.android.build.OutputFile
  * By default you don't need to apply any configuration, just uncomment the lines you need.
  */
 react {
+    apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
     /* Folders */
     //   The root of your project, i.e. where "package.json" lives. Default is '..'
     // root = file("../")
@@ -102,6 +103,10 @@ android {
         versionName "1.0"
     }
 
+     aaptOptions {
+        noCompress "tflite"
+    }
+
     splits {
         abi {
             reset()
@@ -130,6 +135,9 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+    buildFeatures {
+        mlModelBinding true
+    }
 
     // applicationVariants are e.g. debug, release
     applicationVariants.all { variant ->
@@ -153,6 +161,8 @@ dependencies {
     implementation("com.facebook.react:react-android")
 
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.0.0")
+
+    implementation('org.tensorflow:tensorflow-lite-task-text:0.4.4')
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}")
     debugImplementation("com.facebook.flipper:flipper-network-plugin:${FLIPPER_VERSION}") {
