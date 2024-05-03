@@ -33,7 +33,7 @@ This project is a playground for integrating TensorFlow Lite (TFLite) with React
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-native-tflite-playground.git
+   git clone https://github.com/srikiranvelpuri/react-native-tflite-playground.git
    ```
 2. Install node modules:
     ```bash
