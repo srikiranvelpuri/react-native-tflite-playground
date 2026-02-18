@@ -20,7 +20,7 @@ This project is a playground for integrating TensorFlow Lite (TFLite) with React
 
 
 ## Preview
-![](https://github.com/srikiran1707/react-native-tflite-playground/blob/master/assets/bertQA_preview.gif)
+![](https://github.com/srikiranvelpuri/react-native-tflite-playground/blob/master/assets/bertQA_preview.gif)
 
 
 ## Getting Started
